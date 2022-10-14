@@ -35,6 +35,7 @@ namespace ProyectoIdentity.Models
         public string Direccion { get; set; }
 
         [Required(ErrorMessage = "La fecha de Nacimiento es obligatoria")]
+        [Display(Name = "Fecha de Nacimiento")]
         public DateTime FechaNacimiento { get; set; }
 
         [Required(ErrorMessage = "El Estado es obligatorio")]
